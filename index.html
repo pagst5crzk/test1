@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=" utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="top">
+        <h2>マビノギ　呪文書＆リキュール＆エフェクト＆２次タイ　一覧</h2>
+        <button onclick="changeContent('2026')">2026</button>
+        <button onclick="changeContent('2025')">2025</button>
+        <button onclick="changeContent('2024')">2024</button>
+        <button onclick="changeContent('2023')">2023</button>
+        <button onclick="changeContent('2022')">2022</button>
+        <button onclick="changeContent('2021')">2021</button>
+        <button onclick="changeContent('2020')">2020</button>
+        <form class="inline-form" onsubmit="findScroll(event)">
+            <input type="search" id="input-area" placeholder="検索文字列 + Enter">
+        </form
+    </div>
+
+    <div id="target-area">
+        <div>hoge fuga</div>
+    </div>
+
+    <div class="bottom">last update 2026/3/26</div>
+
+    <script src="data.js" defer></script>
+    <script src="script.js" defer></script>
+
+</body>
+</html>
